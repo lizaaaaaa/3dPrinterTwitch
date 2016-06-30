@@ -20,8 +20,10 @@ difference(){
             polygon([[1,7.5],[8,7.5],[8,3.5],[5.9,1],[3.6,1],[2.7,-.3],[2.7,1],[1,1]]);
         }
     }
-    translate([.55,7.9,-1]){
-        cylinder(d=.6,h=4);
+    translate([-2,7,1]){
+        rotate([90,0,110]){
+            cylinder(d=0.8,h=6);
+        }
     }
 }
 linear_extrude(height=2){
